@@ -8,6 +8,13 @@ from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, Post
 from flask_login import login_user, logout_user, current_user, login_required
 
 
+@app.cli.command('initdb')
+def initdb_command():
+	"""Creates the database tables."""
+	db.create_all()
+	print('Initialized the database.')
+
+
 
 @app.route("/")
 @app.route("/home")
