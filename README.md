@@ -1,7 +1,7 @@
 # Flask Blog
 
 ## About:
-This is a blogging single server web application that hosts users, allowing them to share posts with every other user in the server. Inspiration taken from Twitter but no following/follower dynamic was implemented.
+This is a single-server blogging web application that allows users to share posts with the entire community. Inspired by Twitter, it facilitates open interaction without a following or follower dynamic. Project was built to gain more experience using Flask framework to build web applications.
 
 This application was built with Python, Flask, SQLAlchemy, and HTML/CSS.
 
